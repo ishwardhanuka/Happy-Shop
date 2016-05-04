@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7E6B6D1CD3B02B00F5D3B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6B6C1CD3B02B00F5D3B3 /* main.m */; };
+		7F7E6B701CD3B02B00F5D3B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6B6F1CD3B02B00F5D3B3 /* AppDelegate.m */; };
+		7F7E6B761CD3B02B00F5D3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E6B741CD3B02B00F5D3B3 /* Main.storyboard */; };
+		7F7E6B781CD3B02B00F5D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E6B771CD3B02B00F5D3B3 /* Assets.xcassets */; };
+		7F7E6B7B1CD3B02B00F5D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7E6B791CD3B02B00F5D3B3 /* LaunchScreen.storyboard */; };
+		7F7E6B861CD3B02B00F5D3B3 /* Happy_ShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6B851CD3B02B00F5D3B3 /* Happy_ShopTests.m */; };
+		7F7E6B911CD3B02B00F5D3B3 /* Happy_ShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6B901CD3B02B00F5D3B3 /* Happy_ShopUITests.m */; };
+		7F7E6BA41CD645C700F5D3B3 /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BA31CD645C700F5D3B3 /* CategoryTableViewController.m */; };
+		7F7E6BA71CD64CB300F5D3B3 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BA61CD64CB300F5D3B3 /* ProductsViewController.m */; };
+		7F7E6BAD1CD7A4DD00F5D3B3 /* ProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BAC1CD7A4DD00F5D3B3 /* ProductObject.m */; };
+		7F7E6BB31CD7A56500F5D3B3 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BB21CD7A56500F5D3B3 /* IconDownloader.m */; };
+		7F7E6BB61CD7A8BD00F5D3B3 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BB51CD7A8BD00F5D3B3 /* WebService.m */; };
+		7F7E6BBC1CD7BF2C00F5D3B3 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6BBB1CD7BF2C00F5D3B3 /* ProductDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F7E6B821CD3B02B00F5D3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F7E6B601CD3B02B00F5D3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7E6B671CD3B02B00F5D3B3;
+			remoteInfo = "Happy Shop";
+		};
+		7F7E6B8D1CD3B02B00F5D3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F7E6B601CD3B02B00F5D3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7E6B671CD3B02B00F5D3B3;
+			remoteInfo = "Happy Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F7E6B681CD3B02B00F5D3B3 /* Happy Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E6B6C1CD3B02B00F5D3B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7E6B6E1CD3B02B00F5D3B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F7E6B6F1CD3B02B00F5D3B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F7E6B751CD3B02B00F5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F7E6B771CD3B02B00F5D3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F7E6B7A1CD3B02B00F5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F7E6B7C1CD3B02B00F5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7E6B811CD3B02B00F5D3B3 /* Happy ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E6B851CD3B02B00F5D3B3 /* Happy_ShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Happy_ShopTests.m; sourceTree = "<group>"; };
+		7F7E6B871CD3B02B00F5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7E6B8C1CD3B02B00F5D3B3 /* Happy ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E6B901CD3B02B00F5D3B3 /* Happy_ShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Happy_ShopUITests.m; sourceTree = "<group>"; };
+		7F7E6B921CD3B02B00F5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7E6BA21CD645C700F5D3B3 /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
+		7F7E6BA31CD645C700F5D3B3 /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
+		7F7E6BA51CD64CB300F5D3B3 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		7F7E6BA61CD64CB300F5D3B3 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		7F7E6BAB1CD7A4DD00F5D3B3 /* ProductObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductObject.h; sourceTree = "<group>"; };
+		7F7E6BAC1CD7A4DD00F5D3B3 /* ProductObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductObject.m; sourceTree = "<group>"; };
+		7F7E6BB11CD7A56500F5D3B3 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		7F7E6BB21CD7A56500F5D3B3 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		7F7E6BB41CD7A8BD00F5D3B3 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		7F7E6BB51CD7A8BD00F5D3B3 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		7F7E6BBA1CD7BF2C00F5D3B3 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		7F7E6BBB1CD7BF2C00F5D3B3 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F7E6B651CD3B02B00F5D3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B7E1CD3B02B00F5D3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B891CD3B02B00F5D3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F7E6B5F1CD3B02B00F5D3B3 = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B6A1CD3B02B00F5D3B3 /* Happy Shop */,
+				7F7E6B841CD3B02B00F5D3B3 /* Happy ShopTests */,
+				7F7E6B8F1CD3B02B00F5D3B3 /* Happy ShopUITests */,
+				7F7E6B691CD3B02B00F5D3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7E6B691CD3B02B00F5D3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B681CD3B02B00F5D3B3 /* Happy Shop.app */,
+				7F7E6B811CD3B02B00F5D3B3 /* Happy ShopTests.xctest */,
+				7F7E6B8C1CD3B02B00F5D3B3 /* Happy ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7E6B6A1CD3B02B00F5D3B3 /* Happy Shop */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B6E1CD3B02B00F5D3B3 /* AppDelegate.h */,
+				7F7E6B6F1CD3B02B00F5D3B3 /* AppDelegate.m */,
+				7F7E6B741CD3B02B00F5D3B3 /* Main.storyboard */,
+				7F7E6B771CD3B02B00F5D3B3 /* Assets.xcassets */,
+				7F7E6B791CD3B02B00F5D3B3 /* LaunchScreen.storyboard */,
+				7F7E6B7C1CD3B02B00F5D3B3 /* Info.plist */,
+				7F7E6B6B1CD3B02B00F5D3B3 /* Supporting Files */,
+				7F7E6BA21CD645C700F5D3B3 /* CategoryTableViewController.h */,
+				7F7E6BA31CD645C700F5D3B3 /* CategoryTableViewController.m */,
+				7F7E6BA51CD64CB300F5D3B3 /* ProductsViewController.h */,
+				7F7E6BA61CD64CB300F5D3B3 /* ProductsViewController.m */,
+				7F7E6BAB1CD7A4DD00F5D3B3 /* ProductObject.h */,
+				7F7E6BAC1CD7A4DD00F5D3B3 /* ProductObject.m */,
+				7F7E6BB11CD7A56500F5D3B3 /* IconDownloader.h */,
+				7F7E6BB21CD7A56500F5D3B3 /* IconDownloader.m */,
+				7F7E6BB41CD7A8BD00F5D3B3 /* WebService.h */,
+				7F7E6BB51CD7A8BD00F5D3B3 /* WebService.m */,
+				7F7E6BBA1CD7BF2C00F5D3B3 /* ProductDetailViewController.h */,
+				7F7E6BBB1CD7BF2C00F5D3B3 /* ProductDetailViewController.m */,
+			);
+			path = "Happy Shop";
+			sourceTree = "<group>";
+		};
+		7F7E6B6B1CD3B02B00F5D3B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B6C1CD3B02B00F5D3B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F7E6B841CD3B02B00F5D3B3 /* Happy ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B851CD3B02B00F5D3B3 /* Happy_ShopTests.m */,
+				7F7E6B871CD3B02B00F5D3B3 /* Info.plist */,
+			);
+			path = "Happy ShopTests";
+			sourceTree = "<group>";
+		};
+		7F7E6B8F1CD3B02B00F5D3B3 /* Happy ShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E6B901CD3B02B00F5D3B3 /* Happy_ShopUITests.m */,
+				7F7E6B921CD3B02B00F5D3B3 /* Info.plist */,
+			);
+			path = "Happy ShopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F7E6B671CD3B02B00F5D3B3 /* Happy Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7E6B951CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy Shop" */;
+			buildPhases = (
+				7F7E6B641CD3B02B00F5D3B3 /* Sources */,
+				7F7E6B651CD3B02B00F5D3B3 /* Frameworks */,
+				7F7E6B661CD3B02B00F5D3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Shop";
+			productName = "Happy Shop";
+			productReference = 7F7E6B681CD3B02B00F5D3B3 /* Happy Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F7E6B801CD3B02B00F5D3B3 /* Happy ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7E6B981CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy ShopTests" */;
+			buildPhases = (
+				7F7E6B7D1CD3B02B00F5D3B3 /* Sources */,
+				7F7E6B7E1CD3B02B00F5D3B3 /* Frameworks */,
+				7F7E6B7F1CD3B02B00F5D3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7E6B831CD3B02B00F5D3B3 /* PBXTargetDependency */,
+			);
+			name = "Happy ShopTests";
+			productName = "Happy ShopTests";
+			productReference = 7F7E6B811CD3B02B00F5D3B3 /* Happy ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F7E6B8B1CD3B02B00F5D3B3 /* Happy ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7E6B9B1CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy ShopUITests" */;
+			buildPhases = (
+				7F7E6B881CD3B02B00F5D3B3 /* Sources */,
+				7F7E6B891CD3B02B00F5D3B3 /* Frameworks */,
+				7F7E6B8A1CD3B02B00F5D3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7E6B8E1CD3B02B00F5D3B3 /* PBXTargetDependency */,
+			);
+			name = "Happy ShopUITests";
+			productName = "Happy ShopUITests";
+			productReference = 7F7E6B8C1CD3B02B00F5D3B3 /* Happy ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F7E6B601CD3B02B00F5D3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = luxola;
+				TargetAttributes = {
+					7F7E6B671CD3B02B00F5D3B3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7F7E6B801CD3B02B00F5D3B3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F7E6B671CD3B02B00F5D3B3;
+					};
+					7F7E6B8B1CD3B02B00F5D3B3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F7E6B671CD3B02B00F5D3B3;
+					};
+				};
+			};
+			buildConfigurationList = 7F7E6B631CD3B02B00F5D3B3 /* Build configuration list for PBXProject "Happy Shop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F7E6B5F1CD3B02B00F5D3B3;
+			productRefGroup = 7F7E6B691CD3B02B00F5D3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F7E6B671CD3B02B00F5D3B3 /* Happy Shop */,
+				7F7E6B801CD3B02B00F5D3B3 /* Happy ShopTests */,
+				7F7E6B8B1CD3B02B00F5D3B3 /* Happy ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F7E6B661CD3B02B00F5D3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E6B7B1CD3B02B00F5D3B3 /* LaunchScreen.storyboard in Resources */,
+				7F7E6B781CD3B02B00F5D3B3 /* Assets.xcassets in Resources */,
+				7F7E6B761CD3B02B00F5D3B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B7F1CD3B02B00F5D3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B8A1CD3B02B00F5D3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F7E6B641CD3B02B00F5D3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E6B701CD3B02B00F5D3B3 /* AppDelegate.m in Sources */,
+				7F7E6BB61CD7A8BD00F5D3B3 /* WebService.m in Sources */,
+				7F7E6BB31CD7A56500F5D3B3 /* IconDownloader.m in Sources */,
+				7F7E6BBC1CD7BF2C00F5D3B3 /* ProductDetailViewController.m in Sources */,
+				7F7E6BAD1CD7A4DD00F5D3B3 /* ProductObject.m in Sources */,
+				7F7E6BA41CD645C700F5D3B3 /* CategoryTableViewController.m in Sources */,
+				7F7E6BA71CD64CB300F5D3B3 /* ProductsViewController.m in Sources */,
+				7F7E6B6D1CD3B02B00F5D3B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B7D1CD3B02B00F5D3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E6B861CD3B02B00F5D3B3 /* Happy_ShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E6B881CD3B02B00F5D3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E6B911CD3B02B00F5D3B3 /* Happy_ShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F7E6B831CD3B02B00F5D3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F7E6B671CD3B02B00F5D3B3 /* Happy Shop */;
+			targetProxy = 7F7E6B821CD3B02B00F5D3B3 /* PBXContainerItemProxy */;
+		};
+		7F7E6B8E1CD3B02B00F5D3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F7E6B671CD3B02B00F5D3B3 /* Happy Shop */;
+			targetProxy = 7F7E6B8D1CD3B02B00F5D3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F7E6B741CD3B02B00F5D3B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E6B751CD3B02B00F5D3B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F7E6B791CD3B02B00F5D3B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7E6B7A1CD3B02B00F5D3B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F7E6B931CD3B02B00F5D3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F7E6B941CD3B02B00F5D3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F7E6B961CD3B02B00F5D3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F7E6B971CD3B02B00F5D3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F7E6B991CD3B02B00F5D3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy ShopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Shop.app/Happy Shop";
+			};
+			name = Debug;
+		};
+		7F7E6B9A1CD3B02B00F5D3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy ShopTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy Shop.app/Happy Shop";
+			};
+			name = Release;
+		};
+		7F7E6B9C1CD3B02B00F5D3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy ShopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Shop";
+			};
+			name = Debug;
+		};
+		7F7E6B9D1CD3B02B00F5D3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy ShopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luxola.Happy-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy Shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F7E6B631CD3B02B00F5D3B3 /* Build configuration list for PBXProject "Happy Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7E6B931CD3B02B00F5D3B3 /* Debug */,
+				7F7E6B941CD3B02B00F5D3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7E6B951CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7E6B961CD3B02B00F5D3B3 /* Debug */,
+				7F7E6B971CD3B02B00F5D3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7E6B981CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7E6B991CD3B02B00F5D3B3 /* Debug */,
+				7F7E6B9A1CD3B02B00F5D3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7E6B9B1CD3B02B00F5D3B3 /* Build configuration list for PBXNativeTarget "Happy ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7E6B9C1CD3B02B00F5D3B3 /* Debug */,
+				7F7E6B9D1CD3B02B00F5D3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F7E6B601CD3B02B00F5D3B3 /* Project object */;
+}
